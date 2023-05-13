@@ -8,15 +8,14 @@
 </head>
 <body>
     <h1>HELLO DGA !</h1>
-    <h2>LEVEL 2 Heading</h2>
+    <h2>HTML</h2>
 
-    <p>HI THIS IS MY PARAGRAOH. BLA BLA BLA BLA HDYHEBUWBEBWUBW
-        HELLOW </p>
+    <p>HTML stands for <strong>hyper text markup language</strong> </p> 
 
-        <OL>
-          <li>ITEM 1</li> 
-           <li>ITEM 2 </li> 
-           <li>LIZARD</li>
+        <OL>BASIC TAGS:
+          <li> Doctype</li> 
+           <li>HTML </li> 
+           <li>HEAD</li>
         </OL>
 </body>
 </html>
