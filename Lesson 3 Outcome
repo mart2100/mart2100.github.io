@@ -12,7 +12,7 @@
 
     <p>HTML stands for <strong>hyper text markup language</strong> </p> 
 
-        <OL>BASIC TAGS:
+      Basic Tags:  <OL>
           <li> Doctype</li> 
            <li>HTML </li> 
            <li>HEAD</li>
