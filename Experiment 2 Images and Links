@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DGA</title>
+</head>
+<h1>Experiment 2-Images and Links</h1>
+<h2>Images</h2>
+<body>
+   
+
+   
+
+     
+    <img src = "Husky.jpg">
+<h3>Links</h3>
+Follow me on 
+<a href = "https://www.google.com" target ="_blank" >Go to Google </a>
+</body>
+</html>
