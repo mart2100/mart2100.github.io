@@ -1,4 +1,4 @@
-/* Center the grid and add some styling */
+/* CSS FOR TIC TAC TOE*/
 body {
     display: flex;
     justify-content: center;
@@ -17,7 +17,7 @@ body {
     border-collapse: collapse;
   }
   
-  /* Style each cell */
+
   td {
     width: 100px;
     height: 100px;
