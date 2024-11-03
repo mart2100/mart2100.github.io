@@ -1,77 +1,60 @@
-/* Center the content on the page */
-body, html {
-    height: 100%;
-    margin: 0;
+/* Center the grid and add some styling */
+body {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
     font-family: Arial, sans-serif;
-}
-
-.container {
-    text-align: center;
-}
-
-h1 {
-    font-size: 24px;
+    flex-direction: column;
+  }
+  
+  h1 {
     margin-bottom: 20px;
-}
-
-/* Style the Tic Tac Toe table */
-.tic-tac-toe {
-    border-collapse: collapse; /* Remove spacing between cells */
-    margin: 0 auto; /* Center the table */
-}
-
-/* Style each cell */
-.cell {
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  /* Style each cell */
+  td {
     width: 100px;
     height: 100px;
-    border: 0; /* Remove default borders */
-}
-
-/* Add borders to create the Tic Tac Toe lines */
-.cell {
-    border-width: 1px;
-    border-style: solid;
-    border-color: transparent; /* Default transparent border */
-}
-
-/* Add thicker borders only where necessary */
-.cell:nth-child(1),
-.cell:nth-child(2),
-.cell:nth-child(3) {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+  }
+  
+  /* Top row cells */
+  .top {
     border-bottom: 2px solid black;
-}
-
-.cell:nth-child(4),
-.cell:nth-child(5),
-.cell:nth-child(6) {
+  }
+  
+  /* Middle row cells */
+  .middle {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-}
-
-.cell:nth-child(7),
-.cell:nth-child(8),
-.cell:nth-child(9) {
+  }
+  
+  /* Bottom row cells */
+  .bottom {
     border-top: 2px solid black;
-}
-
-.cell:nth-child(1),
-.cell:nth-child(4),
-.cell:nth-child(7) {
+  }
+  
+  /* Left column cells */
+  .left {
     border-right: 2px solid black;
-}
-
-.cell:nth-child(2),
-.cell:nth-child(5),
-.cell:nth-child(8) {
+  }
+  
+  /* Center column cells */
+  .center {
     border-left: 2px solid black;
     border-right: 2px solid black;
-}
-
-.cell:nth-child(3),
-.cell:nth-child(6),
-.cell:nth-child(9) {
+  }
+  
+  /* Right column cells */
+  .right {
     border-left: 2px solid black;
-}
+  }
+  
