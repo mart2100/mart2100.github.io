@@ -28,33 +28,33 @@ body {
   
   /* Top row cells */
   .top {
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
   }
   
   /* Middle row cells */
   .middle {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
   }
   
   /* Bottom row cells */
   .bottom {
-    border-top: 2px solid black;
+    border-top: 1px solid black;
   }
   
   /* Left column cells */
   .left {
-    border-right: 2px solid black;
+    border-right: 1px solid black;
   }
   
   /* Center column cells */
   .center {
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
   }
   
   /* Right column cells */
   .right {
-    border-left: 2px solid black;
+    border-left: 1px solid black;
   }
   
