@@ -1,0 +1,58 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.blog-container {
+    width: 60%;
+    max-width: 800px;
+    background-color: white;
+    border: 1px solid #bdc7cf;
+    padding: 20px;
+}
+
+.title {
+    font-size: 2rem;
+    color: #354b63;
+    margin-bottom: 20px;
+}
+
+.blog-post {
+    margin-bottom: 20px;
+}
+
+.date {
+    color: #3098dd;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #354b63;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #333;
+    line-height: 1.6;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #bdc7cf;
+    margin: 20px 0;
+}
