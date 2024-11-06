@@ -19,8 +19,8 @@ body {
         max-width: 800px;
         background-color: white;
         padding: 30px; /* Space inside the container */
-        border: 8px solid #bdc7cf; /* Thick outer border to match the screenshot */
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+        border: 8px solid #bdc7cf; /* To make the outer border */
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /*  shadow */
 }
 
 .title {
