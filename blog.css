@@ -21,6 +21,8 @@ body {
         padding: 30px; /* Space inside the container */
         border: 8px solid #bdc7cf; /* To make the outer border */
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /*  shadow */
+        float: left; /* Floating the entire container to make the link work on all screens and devices */
+    clear: both; /* Ensures it clears both sides */
 }
 
 .title {
