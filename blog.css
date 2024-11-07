@@ -52,18 +52,15 @@ h2 {
 p {
     color: #333;
     line-height: 1.6;
-}
-p1 { 
     margin-bottom: 10px;
+}
+
+/* Class for Left Border on Paragraphs */
+.left-border {
     padding-left: 15px; /* Space between the text and the left border */
     border-left: 4px solid #bdc7cf; /* Left border color, thickness, and style */
 }
 
-p2{
-    margin-bottom: 10px;
-    padding-left: 15px; /* Space between the text and the left border */
-    border-left: 4px solid #bdc7cf; /* Left border color, thickness, and style */
-}
 hr {
     border: none;
     border-top: 1px solid #bdc7cf;
