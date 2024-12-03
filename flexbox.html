@@ -50,11 +50,11 @@
       margin-bottom: 20px;
     }
 
-    /* Responsive Navbar: Updated to center and remain responsive */
+    /* Responsive Navbar: to change whenever tab is resized etc */
     .responsive-navbar {
       display: flex;
-      justify-content: center; /* Center the navbar */
-      flex-wrap: wrap;        /* Allow wrapping for small screens */
+      justify-content: center; /* Center and keep everything horizontally in the middle*/
+      flex-wrap: wrap;        /* Allow wrapping for small tabs. therefore when window width gets smaller, links move to next line */
       gap: 10px;
     }
 
@@ -76,8 +76,8 @@
 
     @media (max-width: 600px) {
       .responsive-navbar {
-        flex-direction: column; /* Stack links vertically on small screens */
-        align-items: center;   /* Ensure links stay centered */
+        flex-direction: column; /* to Stack links vertically on small screens */
+        align-items: center;   /* to ensure links stay centered */
       }
     }
 
