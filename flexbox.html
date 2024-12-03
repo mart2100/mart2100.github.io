@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nav Flexbox</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    h1, h2 {
+      margin-bottom: 10px;
+    }
+
+    .navbar {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      padding: 5px 10px;
+      color: blue;
+    }
+
+    .navbar .active {
+      font-weight: bold;
+      color: black;
+    }
+
+    .navbar .disabled {
+      color: gray;
+      pointer-events: none;
+    }
+
+    .column-navbar {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .reverse-column-navbar {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    /* Responsive Navbar: Updated to center and remain responsive */
+    .responsive-navbar {
+      display: flex;
+      justify-content: center; /* Center the navbar */
+      flex-wrap: wrap;        /* Allow wrapping for small screens */
+      gap: 10px;
+    }
+
+    .responsive-navbar a {
+      text-decoration: none;
+      padding: 5px 10px;
+      color: blue;
+    }
+
+    .responsive-navbar .active {
+      font-weight: bold;
+      color: black;
+    }
+
+    .responsive-navbar .disabled {
+      color: gray;
+      pointer-events: none;
+    }
+
+    @media (max-width: 600px) {
+      .responsive-navbar {
+        flex-direction: column; /* Stack links vertically on small screens */
+        align-items: center;   /* Ensure links stay centered */
+      }
+    }
+
+    /* Tab Navbar Style */
+    .tab-navbar {
+      display: flex;
+      border-bottom: 2px solid #ddd;
+      margin-bottom: 10px;
+    }
+
+    .tab-navbar a {
+      text-decoration: none;
+      padding: 10px 20px;
+      color: #007bff;
+      border: 1px solid transparent;
+      border-radius: 4px 4px 0 0;
+      margin-right: 5px;
+    }
+
+    .tab-navbar a.active {
+      color: black;
+      background-color: white;
+      border-color: #ddd #ddd transparent;
+      font-weight: bold;
+    }
+
+    .tab-navbar a.disabled {
+      color: #aaa;
+      pointer-events: none;
+      cursor: not-allowed;
+    }
+
+    .tab-navbar a:hover:not(.active):not(.disabled) {
+      background-color: #f8f9fa;
+      border-color: #ddd #ddd transparent;
+    }
+
+    /* Right-Aligned Navbar */
+    .right-aligned-navbar {
+      display: flex;
+      justify-content: flex-end;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    .right-aligned-navbar a {
+      text-decoration: none;
+      padding: 5px 10px;
+      color: blue;
+    }
+
+    .right-aligned-navbar .active {
+      font-weight: bold;
+      color: black;
+    }
+
+    .right-aligned-navbar .disabled {
+      color: gray;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Nav Flexbox</h1>
+
+  <!--first style-->
+  <h2>Navbar Style 1</h2>
+  <div class="navbar">
+    <a href="#" class="active">Active</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#" class="disabled">Disabled</a>
+  </div>
+
+  <!--second style-->
+  <h2>Navbar Style 2</h2>
+  <div class="navbar">
+    <a href="#" class="active">Active</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#" class="disabled">Disabled</a>
+  </div>
+
+  <!--third style-->
+  <h2>Column Navbar</h2>
+  <div class="column-navbar">
+    <a href="#" class="active">Active</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#" class="disabled">Disabled</a>
+  </div>
+
+  <!--fourth style-->
+  <h2>Reverse Column Navbar</h2>
+  <div class="reverse-column-navbar">
+    <a href="#" class="disabled">Disabled</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#" class="active">Active</a>
+  </div>
+
+  <!--fifth style-->
+  <h2>Responsive Navbar</h2>
+  <div class="responsive-navbar">
+    <a href="#" class="active">Active</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#" class="disabled">Disabled</a>
+  </div>
+
+  <!--tab navbar-->
+  <h2>Tab Navbar</h2>
+  <div class="tab-navbar">
+    <a href="#" class="active">Active</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#" class="disabled">Disabled</a>
+  </div>
+
+  <!--right-aligned navbar-->
+  <h2>Right-Aligned Navbar</h2>
+  <div class="right-aligned-navbar">
+    <a href="#" class="active">Active</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#" class="disabled">Disabled</a>
+  </div>
+</body>
+</html>

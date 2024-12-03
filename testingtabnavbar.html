@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tab Navbar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .tab-navbar {
+      display: flex;
+      border-bottom: 2px solid #ddd;
+      margin-bottom: 10px;
+    }
+
+    .tab-navbar a {
+      text-decoration: none;
+      padding: 10px 20px;
+      color: #007bff;
+      border: 1px solid transparent;
+      border-radius: 4px 4px 0 0;
+      margin-right: 5px;
+    }
+
+    .tab-navbar a.active {
+      color: black;
+      background-color: white;
+      border-color: #ddd #ddd transparent;
+      font-weight: bold;
+    }
+
+    .tab-navbar a.disabled {
+      color: #aaa;
+      pointer-events: none;
+      cursor: not-allowed;
+    }
+
+    .tab-navbar a:hover:not(.active):not(.disabled) {
+      background-color: #f8f9fa;
+      border-color: #ddd #ddd transparent;
+    }
+  </style>
+</head>
+<body>
+  <h1>Tab Navbar</h1>
+  <div class="tab-navbar">
+    <a href="#" class="active">Active</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#" class="disabled">Disabled</a>
+  </div>
+</body>
+</html>
